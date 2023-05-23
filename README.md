@@ -63,7 +63,7 @@ python -m pytest -s n_test.py --cov \
                  --cov-report term-missing --cov-report=term --cov-report=xml
 ```
 
-you see `ERROR: /Users/claird/work/ERG/Ned.example/pyproject.toml: Invalid
+you see `ERROR: .../pyproject.toml: Invalid
 value (at line 5, column 15)`, even though the `exclude-also` syntax is taken
 directly from
 [the current documentation](https://coverage.readthedocs.io/en/latest/excluding.html#advanced-exclusion)
