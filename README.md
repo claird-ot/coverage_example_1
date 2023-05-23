@@ -68,7 +68,7 @@ value (at line 5, column 15)`, even though the `exclude-also` syntax is taken
 directly from [the current documentation]().
 
 Questions:
-- What's up?
+- What am I missing?
 - Is there a convenient introspection so **Coverage** reports what keywords
 it regards as valid in that position?
 
