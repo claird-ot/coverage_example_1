@@ -50,7 +50,7 @@ Required test coverage of 90.0% reached. Total coverage: 90.00%
 
 That 75% is deceptive, of course:  we naturally want to exclude
 `if __name__ == ...`, so remove comments from
-`[pyproject.toml](https://github.com/claird-ot/coverage_example_1/blob/main/pyproject.toml)`
+[`pyproject.toml`](https://github.com/claird-ot/coverage_example_1/blob/main/pyproject.toml)
 to make `pyproject.toml` look like
 ```bash
 [tool.coverage.report]
