@@ -65,7 +65,12 @@ python -m pytest -s n_test.py --cov \
 
 you see `ERROR: /Users/claird/work/ERG/Ned.example/pyproject.toml: Invalid
 value (at line 5, column 15)`, even though the `exclude-also` syntax is taken
-directly from [the current documentation]().
+directly from
+[the current documentation](https://coverage.readthedocs.io/en/latest/excluding.html#advanced-exclusion)
+(notice, incidentally, this differs from
+[documentation for 7.2.5](https://coverage.readthedocs.io/en/7.2.5/excluding.html#advanced-exclusion),
+even though 7.2.5 _is_ the latest).
+
 
 Questions:
 - What am I missing?
