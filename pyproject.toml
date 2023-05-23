@@ -1,0 +1,6 @@
+[tool.coverage.report]
+# Notice that "fail_under = 95" results in FAILURE, as we want.
+fail_under = 90
+
+# exclude-also =
+#     if __name__ == .__main__.:
