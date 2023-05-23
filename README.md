@@ -2,8 +2,9 @@
 
 ## Summary
 
-I claim this little project illustrates that **Coverage** does _not_ behave
-as documented.
+I claim this little project illustrates that
+[**Coverage**](https://pypi.org/project/pytest-cov/)
+does _not_ behave as documented.
 
 ## An Executable Model
 
