@@ -69,7 +69,7 @@ directly from
 [the current documentation](https://coverage.readthedocs.io/en/latest/excluding.html#advanced-exclusion)
 (notice, incidentally, this differs from
 [documentation for 7.2.5](https://coverage.readthedocs.io/en/7.2.5/excluding.html#advanced-exclusion),
-even though 7.2.5 _is_ the latest).
+even though this syntax changed _before_ 7.2.5).
 
 
 Questions:
