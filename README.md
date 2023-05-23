@@ -46,6 +46,8 @@ Required test coverage of 90.0% reached. Total coverage: 90.00%
 ============================== 2 passed in 0.03s ==============================
 ```
 
+## Refinement through Configuration
+
 That 75% is deceptive, of course:  we naturally want to exclude
 `if __name__ == ...`, so remove comments from
 `[pyproject.toml](https://github.com/claird-ot/coverage_example_1/blob/main/pyproject.toml)`
@@ -73,11 +75,14 @@ directly from
 [documentation for 7.2.5](https://coverage.readthedocs.io/en/7.2.5/excluding.html#advanced-exclusion),
 even though this syntax changed _before_ 7.2.5).
 
+## Conclusion
 
 Questions:
 - What am I missing?
 - Is there a convenient introspection so **Coverage** reports what keywords
 it regards as valid in that position?
+
+## Footnote
 
 I've experimented with plenty of variations on `exclude-also`, including
 `exclude_also`, `exclude_lines`, and so on.  **Coverage** rejects them all,
